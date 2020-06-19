@@ -1,6 +1,6 @@
 ﻿module Rankings
 
-doc """
+doc"""
     @ranking_str -> Dict
 
 Parse human description of the ranking into dictionary
