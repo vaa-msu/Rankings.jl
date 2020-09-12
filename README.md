@@ -1,7 +1,7 @@
 # Rankings.jl
 
-A way to describe rankings in Julia converting human ranking descriptions to some score matrix.
-Uses Julia package [Tokenize.jl](https://github.com/JuliaLang/Tokenize.jl). [README in russian](README.ru.md)
+[README in russian](README.ru.md). A way to describe rankings in Julia converting human ranking descriptions to some score matrix.
+Uses Julia package [Tokenize.jl](https://github.com/JuliaLang/Tokenize.jl).
 
 ## Installation
 
