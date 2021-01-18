@@ -1,7 +1,7 @@
 name = "Rankings"
 uuid = "d08950ee-ad6d-11ea-286e-07c2c7531373"
 authors = ["Валерий Антонюк (valery.antonyuk@gmail.com)"]
-version = "0.2.3"
+version = "0.3.0"
 
 [deps]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

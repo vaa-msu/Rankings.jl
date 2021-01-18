@@ -34,10 +34,12 @@ Dict("4"=>-1,"1"=>-2,"5"=>0,"2"=>-4,"3"=>-3)
 
 using Tokenize
 
-export @ranking_str, ⦸, @Ранжирование_str
+export @ranking_str, ⦸, @Ранжирование_str, consensus, ⊖
 
 include("op_obslash.jl")
 include("parse_data.jl")
+include("negs_utils.jl")
+include("consensus.jl")
 
 macro ranking_str(s::String) ; parse_ranking(s) ; end
 macro Ранжирование_str(s::String) ; parse_ranking(s) ; end
