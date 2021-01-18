@@ -33,6 +33,7 @@ Dict("4"=>-1,"1"=>-2,"5"=>0,"2"=>-4,"3"=>-3)
 
 
 using Tokenize
+using LinearAlgebra: ⋅
 
 export @ranking_str, ⦸, @Ранжирование_str, consensus, ⊖
 

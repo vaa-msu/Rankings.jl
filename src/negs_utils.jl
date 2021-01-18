@@ -1,5 +1,4 @@
-﻿using LinearAlgebra: ⋅
-
+﻿
 col_negs(A::Matrix) = [sum(A[:,j].<0) for j=1:size(A)[2]]
 row_negs(A::Matrix) = [sum(A[i,:].<0) for i=1:size(A)[1]]
 negs(A) = (row_negs(A), col_negs(A))
